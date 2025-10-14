@@ -18,7 +18,7 @@ public class FileManager {
 			System.out.println("The Directory " + dirName + " already exists");
 		}
 		else {
-			dir.mkdir();
+			dir.mkdirs();
 			System.out.println(dirName + " created in " + dir.getAbsolutePath());
 		}
 		System.out.println();
